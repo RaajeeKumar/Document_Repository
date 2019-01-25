@@ -1,0 +1,21 @@
+Java Installation : 
+******************
+Download the Java SE Development Kit from Oracle site based on your OS and install. 
+Then set the system variable "path" with JDK and JRE bin directories; user variable JAVA_HOME to JDK folder
+
+path : C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jre1.8.0_161\bin
+JAVA_HOME : C:\Program Files\Java\jdk1.8.0_161
+
+Check if the installation is correct by going to the command prompt and typing java, javac,java-version
+
+Maven Installation : 
+*******************
+Go to maven.apache.org.
+Download the binary zip archive file and install maven.
+Then set the MAVEN_HOME system variable, JAVA_HOME system variable, add following to the path system variable
+
+MAVEN_HOME : C:\Program Files\maven\apache-maven-3.5.2
+JAVA_HOME : C:\Program Files\Java\jdk1.8.0_161
+path : %JAVA_HOME%\bin;%MAVEN_HOME%\bin
+
+Check if the installation is correct by going to the command prompt and typing mvn-version
